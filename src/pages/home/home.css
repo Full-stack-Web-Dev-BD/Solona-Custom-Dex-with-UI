@@ -1,0 +1,155 @@
+button:hover{
+    color: rgb(149, 159, 248) !important
+}
+input {
+    background-color: transparent !important; /* Always transparent background */
+  }
+  
+  input:focus {
+    background-color: transparent !important; /* Transparent background on focus */
+    outline: none !important; /* Optional: Remove the default outline */
+  }
+  
+.top_bar{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.left_menu ul, 
+.left_menu ul li 
+{
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+.left_menu ul li .active {
+    color: rgb(8 88 215);
+}
+.left_menu ul li 
+{
+    margin-right: 25px;
+}
+.right_menu  {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.right_menu button{
+    color: white;
+    background: rgb(8 88 215);
+    border-radius: 20px;
+}
+.custom_badge span{
+    color: rgb(111 230 190);
+}
+._user svg{
+    font-size: 30px;
+}
+._scan{
+
+}
+.connect_wallet{
+
+}
+
+
+
+/* body */
+
+.swap_content{
+    color: white;
+    font-family: "Orbitron", sans-serif;
+}
+.swap_content ._heading{
+}
+._heading h5{
+    font-weight: 500;
+}
+.swap_content p{
+    color: gray;
+}
+.swap_content button{
+    color: white;
+}
+
+.swap_wrap{
+    padding: 20px;
+}
+.swap_box{
+    padding: 25px;
+    border: 1px solid rgb(161, 148, 148);
+    border-radius: 25px;
+    background: transparent;
+}
+.swap_box_content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+._line { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 2px;
+    background: white;
+    border-radius: 40px;
+}
+.overlay_box { 
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 40px;
+}
+.swap_toggle{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.swap_toggle svg{
+    color: black;
+    font-size: 25px;
+}
+.s_left h6, .s_right h6{
+    margin-top: 30px;
+}
+.s_left, .s_right{
+    padding: 10px;
+    width: 48%;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 16px;
+}
+.s_left input, .s_right input{
+    display: inline-block;
+    width: 95px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+} 
+.select_coin{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sp{
+    padding: 20px;
+}
+.swap_btn{
+    background: rgb(8 88 215);
+    border-radius: 10px;
+}
